@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  position: absolute;
+  width: 640px;
+  height: 58px;
+  left: 30px;
+  top: 62px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: white;
+}
+
+.boxes {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  margin-top: 157px;
+  margin: 157px 20px 20px;
+}
+
+.box {
+  border: 1px solid #ffffff;
+  width: 300px;
+  height: 67px;
+  padding-left: 15px;
+  margin: 10px;
+}
+
+.add-btn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 30px;
+  width: 650px;
+  cursor: pointer;
+}
+
+.container {
+  width: 95%;
+  height: 67px;
+  margin-left: 30px;
+  margin-top: 80px;
+  align-items: center;
+  border: 1px solid #ffffff;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+th,
+tr {
+  color: #ffffff;
+  margin: 15px;
+  align-items: center;
+}
+table{
+  border: 1px solid white;
+  width: 95%;
+  height: 150px;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-indent: 2opx;
+  border-collapse: collapse;
+  text-align: center;
+  font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+td{
+  border: 1px solid white;
+  margin-left: 25px;
+  align-items: center;
+  text-align:left;
+  margin-left: 20px;
+  justify-content:space-between;
+  font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 29px;
+}
+th {
+  border: 1px solid white;
+  background-color: #000;
+  color:#ffffff;
+  margin-left: 25px;
+}
+
+tr:nth-child(even) {
+  border: 1px solid white;
+  background-color: #dddddd;
+  margin-left: 35px;
+}
+
+#students-body td {
+  margin-left: 25px;
+  text-align: center;
+}
+
+
+tr{
+margin-left: 35px;
+}
